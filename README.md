@@ -11,7 +11,7 @@ This matters because a model that looks accurate in testing but is right for the
  
 High test accuracy is not the same as clinical trustworthiness. Medical imaging models are known to exploit shortcuts such as scanner artifacts, borders, positional cues instead of learning the actual pathology. We wanted to find out whether that was happening here, quantify how much of the model's performance depended on it, and test whether a straightforward intervention could fix it.
  
-Short answer: partially. The full story, including a Grad-CAM analysis that shows exactly where and why the model breaks, is in the [full report](./report.pdf).
+Short answer: partially. The full story, including a Grad-CAM analysis that shows exactly where and why the model breaks, is in the [full report](Investigating_Shortcut_Learning_in_Brain_Tumor_Classification___CSE_493G_Final_Report.pdf).
  
 ## What I Did
  
@@ -46,4 +46,4 @@ This is an active research direction, not a closed project. I'm continuing to ex
  
 ## Full Report
  
-The complete writeup — related work, full methodology, all four Grad-CAM figure sets, and the discussion of limitations — is available [here](./report.pdf).
+The complete writeup — related work, full methodology, all four Grad-CAM figure sets, and the discussion of limitations — is available [here](Investigating_Shortcut_Learning_in_Brain_Tumor_Classification___CSE_493G_Final_Report.pdf).
